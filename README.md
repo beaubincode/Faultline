@@ -1,10 +1,16 @@
 # Faultline
 
-A live earthquake globe. Faultline draws the last hour, day, or week of USGS earthquakes on a dark 3D earth. Markers are sized and colored by magnitude, they pulse, and clicking one flies the camera there.
+Faultline is a live earthquake globe. It draws the last hour, day, or week of earthquakes on a dark 3D earth. Markers are sized and colored by magnitude, they pulse, and clicking one flies the camera there.
+
+Data is the live public [USGS GeoJSON feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php). No API key.
 
 Built by CullenTyler.
 
 ![Faultline showing a day of earthquakes on a night-side globe](docs/screenshot.png)
+
+## Tech stack
+
+React, TypeScript, Vite, react-globe.gl / three.js, Vitest, Playwright, and ESLint.
 
 ## Run
 
